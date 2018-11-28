@@ -1,7 +1,6 @@
 
 const programa = require('satErike.js')
-
-console.log ('SAT SOLVER:')
+require('satsolver')
 
 let result = programa.solve('tutorial.cnf')
 
